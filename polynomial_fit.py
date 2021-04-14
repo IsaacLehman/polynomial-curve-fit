@@ -7,6 +7,7 @@ use with:
     from polynomial_fit import curve_fit_func
     xdata = [some x points]
     ydata = [some y points]
+    power = the heighest power in the polynomial (ex. 3=cubic)
     chisqr, fit_coeficients, func = curve_fit_func(power, xdata, ydata)
     interpolated_val = func(some new x value)
 
