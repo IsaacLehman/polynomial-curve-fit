@@ -4,7 +4,7 @@
 - curve_fit_func: returns a function of x that is a polynomial fit to the data
 
 use with: 
-    from linear_fit import curve_fit_func
+    from polynomial_fit import curve_fit_func
     xdata = [some x points]
     ydata = [some y points]
     chisqr, fit_coeficients, func = curve_fit_func(power, xdata, ydata)
